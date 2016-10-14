@@ -1,0 +1,9 @@
+body {
+	margin: 1em 10%;
+	background-attachment: fixed;
+}
+
+#container {
+	position: relative;
+	padding: 2em 5%;
+}

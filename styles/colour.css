@@ -1,0 +1,33 @@
+body {
+	color: #123;
+	background: #fff url(../images/background.gif) top left repeat-x;
+}
+a:link {
+	color: #567;
+	border-color: #567;
+	background-color: transparent;
+}
+a:visited {
+	color: #456;
+	border-color: #456;
+	background-color: transparent;
+}
+a:hover {
+	color: #966;
+	border-color: #966;
+	background-color: transparent;
+}
+a:active {
+	color: #876;
+	border-color: #876;
+	background-color: transparent;
+}
+h1 {
+	color: #633;
+	border-bottom-color: #cba;
+}
+
+#container {
+	background-color: #fff;
+	border-color: #bcc;
+}

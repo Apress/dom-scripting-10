@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="1224px" height="792px" viewBox="0 0 1224 792" enable-background="new 0 0 1224 792" xml:space="preserve">
+<script type = "text/javascript">
+function addOnloadEvent(fnc)
+{
+	if ( typeof window.addEventListener != "undefined" )
+		window.addEventListener( "load", fnc, false );
+	else if ( typeof window.attachEvent != "undefined" )
+		window.attachEvent( "onload", fnc );
+	else 
+	{
+		if ( window.onload != null )
+		{
+			var oldOnload = window.onload;
+			window.onload = function ( e ) {
+				oldOnload( e );
+				window[fnc]()
+			};
+		}
+		else 
+			window.onload = fnc;
+	}
+}
+</script>
+
+<foreignObject id = "f19CD6C32" x="461.1616px" y = "263.9014px" width = "194.9600px" height = "73.6800px">
+	<body xmlns="http://www.w3.org/1999/xhtml">
+		<canvas id="C19CD6C32" width="194.9600px" height="73.6800px">
+		</canvas>
+	</body>
+</foreignObject>
+
+<script  type="text/javascript">
+function func19CD6C32()
+{
+	var canvas = document.getElementById("C19CD6C32");
+	if (canvas.getContext) 
+	{
+		var context = canvas.getContext("2d");
+		var A19CD6C32 = new Image();
+		A19CD6C32.onload = function(){
+		  context.drawImage(A19CD6C32, 0, 0, 186.9600, 73.6800);
+		  }
+	}
+	A19CD6C32.src = "19CD6C32.png";
+}
+addOnloadEvent(func19CD6C32);
+</script>
+</svg>

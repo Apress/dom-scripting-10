@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset=utf-8 />
+  <title>Text and Email Input Types</title>
+    <script src="modernizr-1.6.min.js"></script>
+</head>
+<body>
+<form>
+	<p><label for="text">Text Input:</label><input name="text" type="text" placeholder="some text"></p>
+	<p><label for="email">Email Input:</label><input id="email" name="email" type="email" placeholder="me@example.com"></p>
+	
+	<script>
+	if ( !Modernizr.input.placeholder ) { 
+		var input = document.getElementById('email'); 
+		input.onfocus = function () {
+		var text = this.placeholder || this.getAttribute('placeholder'); 
+		if ( this.value == text ) {
+			// Reset the value to hide the temporary 
+			// placeholder value. 
+			this.value = '';
+		}
+		input.onblur = function () {
+			if ( this.value == '' ) { 
+				// Set the input value to the placeholder value. 
+				this.value = this.placeholder || this.getAttribute('placeholder');
+			}
+		} 
+		// Execute onblur to initially 
+		// add the placeholder text. 
+		input.onblur();
+	}
+	</script>
+</form>
+</body>
+</html>
